@@ -3,6 +3,8 @@ MesoGen
 
 *The official implementation of [MesoGen: Designing Procedural On-Surface Stranded Mesostructures](https://eliemichel.github.io/MesoGen) (SIGGRAPH 2023).*
 
+![Screenshot](doc/screenshot.jpg)
+
 ### Downloading
 
 This repository contains *submodules*, so **do not use** the *download zip* button provided by GitHub. To clone the repository using git, run:
@@ -42,25 +44,27 @@ You should only need [cmake](https://cmake.org/) and Python, but this has not be
 
 This is a standard CMake project. Building it consits in running:
 
-```
-mkdir build
-cd build
-cmake ..
-```
+```bash
+# Configure (create a 'build/' directory)
+cmake -B build
 
-You can chose which compiler to use in the call to `cmake`, using the `-G` option. See for instance [`build-msvc16.bat`](build-msvc16.bat) to build for Visual Studio 15 (2017), or the other build files for `mingw` or `gcc`. More easily, you can also just run one of those scripts, it will even get git submodules.
-
-Once CMake has run, you can build the project. You can do it in command line, from the `build` directory:
-
-```
-cmake --build .
+# Build (create the executables)
+cmake --build build --config Release
 ```
 
-Or you can use the build process of your compiler, for instance running `make` (for `gcc` projects) or openning the Visual Studio solution.
+You can chose which compiler to use in the first call to `cmake`, using the `-G` option. See for instance [`build-msvc16.bat`](build-msvc16.bat) to build for Visual Studio 15 (2017), or the other build files for `mingw` or `gcc`. More easily, you can also just run one of those scripts, it will even get git submodules.
+
+It is recommended to build in **Release mode** because the tiling library is slow in debug mode.
 
 ### Running
 
 The executable file is created within the `build` directory, in `src/MesostructureGenerator` or `src/MesostructureGenerator/Debug` or `src/MesostructureGenerator/Release` or something similar depending on your compiler.
+
+Run from the `share/samples` directory in order to easily load example scenes (using default values in the UI).
+
+### Usage
+
+TODO
 
 ### Troubleshooting
 
