@@ -186,11 +186,13 @@ bool TilingSolver::solve(MesostructureData& mesostructureData) {
 	const auto& slotTopologyType = macrosurfaceData.properties().slotTopology;
 	const auto& props = properties();
 	switch (props.algorithm) {
+#ifdef USE_MODEL_SYNTHESIS
 	case Algorithm::ModelSynthesis:
 		switch (slotTopologyType) {
 		case MacrosurfaceData::SlotTopology::Grid:
 			return solveGridMs(mesostructureData);
 		}
+#endif // USE_MODEL_SYNTHESIS
 	case Algorithm::WaveFunctionCollapse:
 		switch (slotTopologyType) {
 		case MacrosurfaceData::SlotTopology::Grid:

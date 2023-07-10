@@ -50,7 +50,9 @@ class TilingSolver : public NonCopyable {
 public:
 	enum class Algorithm {
 		WaveFunctionCollapse,
+#ifdef USE_MODEL_SYNTHESIS
 		ModelSynthesis,
+#endif
 	};
 	enum class SuggestionStrategy {
 		Random,
@@ -102,7 +104,9 @@ public:
 	/**
 	 * Use carefully, prefer solve()
 	 */
+#ifdef USE_MODEL_SYNTHESIS
 	bool solveGridMs(MesostructureData& mesostructureData);
+#endif
 	bool solveMeshWfc(MesostructureData& mesostructureData);
 
 	const std::string& message() const { return m_message; }

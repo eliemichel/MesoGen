@@ -48,6 +48,13 @@ endif()
 
 option(DEV_MODE "Build in dev mode, use share directory from source tree rather than installation tree" ON)
 
+if (MSVC)
+	set(DEFAULT_USE_MODEL_SYNTHESIS ON)
+else ()
+	set(DEFAULT_USE_MODEL_SYNTHESIS OFF)
+endif ()
+option(USE_MODEL_SYNTHESIS "Use Merell's Model Synthesis as an option in the tiling solver" ${DEFAULT_USE_MODEL_SYNTHESIS})
+
 # Build
 add_subdirectory(src)
 add_subdirectory(tests)

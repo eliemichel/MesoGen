@@ -62,12 +62,6 @@ class TurntableCamera;
  */
 class OutputObject : public RuntimeObject, public NonCopyable {
 public:
-	enum class GeneratorAlgorithm {
-		ModelSynthesis,
-		WaveFunctionCollapse,
-	};
-
-public:
 	OutputObject(
 		std::shared_ptr<MacrosurfaceData> macrosurfaceData,
 		std::shared_ptr<MesostructureData> mesostructureData

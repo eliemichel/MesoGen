@@ -35,9 +35,6 @@
 #include "MacrosurfaceData.h"
 #include "MesostructureData.h"
 
-// MS
-#include "Synthesizer.h"
-
 #include <libwfc.h>
 
 #include <utils/streamutils.h>

@@ -60,9 +60,11 @@ add_subdirectory(glm)
 target_compile_options(glm INTERFACE /wd4201)
 
 # Merell's model synthesis
-add_subdirectory(model-synthesis)
-set_property(TARGET ModelSynthesisLibrary PROPERTY FOLDER "External")
-set_property(TARGET ModelSynthesisDemo PROPERTY FOLDER "External")
+if (USE_MODEL_SYNTHESIS)
+	add_subdirectory(model-synthesis)
+	set_property(TARGET ModelSynthesisLibrary PROPERTY FOLDER "External")
+	set_property(TARGET ModelSynthesisDemo PROPERTY FOLDER "External")
+endif (USE_MODEL_SYNTHESIS)
 
 # RapidJSON
 add_library(RapidJSON INTERFACE)

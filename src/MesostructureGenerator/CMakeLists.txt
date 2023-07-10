@@ -123,7 +123,6 @@ set(SRC
 	TileVariantList.cpp
 	TilingSolver.h
 	TilingSolver.cpp
-	TilingSolver_solveGridMs.cpp
 	TilingSolverData.h
 	TilingSolverData.cpp
 	TilingSolverRenderData.h
@@ -136,7 +135,6 @@ set(SRC
 
 set(LIBS
 	Augen
-	ModelSynthesisLibrary
 	libwfc
 	RapidJSON
 	tinyobjloader
@@ -145,14 +143,19 @@ set(LIBS
 	stb_image_write
 )
 
+if (USE_MODEL_SYNTHESIS)
+	list(APPEND SRC TilingSolver_solveGridMs.cpp)
+	list(APPEND LIBS ModelSynthesisLibrary)
+endif ()
+
 # Most of the program is defined as a library, for tests to pick what they need
 add_library(MesostructureGeneratorLibrary STATIC ${SRC})
 target_include_directories(MesostructureGeneratorLibrary PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_link_libraries(MesostructureGeneratorLibrary PUBLIC ${LIBS})
 target_treat_warnings_as_errors(MesostructureGeneratorLibrary)
 target_compile_options(MesostructureGeneratorLibrary PRIVATE "/Wv:18")
-if (USE_EXPERIMENTAL)
-	target_compile_definitions(MesostructureGeneratorLibrary PRIVATE USE_EXPERIMENTAL)
+if (USE_MODEL_SYNTHESIS)
+	target_compile_definitions(MesostructureGeneratorLibrary PRIVATE USE_MODEL_SYNTHESIS)
 endif ()
 
 target_compile_definitions(MesostructureGeneratorLibrary PRIVATE RAPIDJSON_HAS_STDSTRING=1)
