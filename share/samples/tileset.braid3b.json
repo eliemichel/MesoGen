@@ -1,0 +1,1668 @@
+{
+    "tileTypes": [
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 97,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 97,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 2,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 46,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 46,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 97,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 2,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 2,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 97,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 1,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 2,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 1,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 99,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 99,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 46,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 99,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 44,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 1,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 3,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 46,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 3,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 47,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 4,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 2,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 3,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 47,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 99,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 1,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 3
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 44,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 2,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 44,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 1,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 47,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 4
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 1,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 49,
+                    "flipEnd": false
+                }
+            ],
+            "innerGeometry": [],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": -1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": -1
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            },
+            "ignore": false
+        }
+    ],
+    "edgeTypes": [
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "lhs": {
+                                "lhs": {
+                                    "center": [
+                                        0.5134126543998718,
+                                        0.20238645374774933
+                                    ],
+                                    "size": [
+                                        0.15317000448703766,
+                                        0.15317000448703766
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "rhs": {
+                                    "center": [
+                                        0.38129082322120667,
+                                        0.20528869330883026
+                                    ],
+                                    "size": [
+                                        0.15317000448703766,
+                                        0.15317000448703766
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "node-type": 2
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.6462644934654236,
+                                    0.19447366893291473
+                                ],
+                                "size": [
+                                    0.15317000448703766,
+                                    0.15317000448703766
+                                ],
+                                "angle": -0.0,
+                                "node-type": 0
+                            },
+                            "node-type": 2
+                        },
+                        "rhs": {
+                            "center": [
+                                0.5125653743743896,
+                                0.4590657353401184
+                            ],
+                            "size": [
+                                0.15317000448703766,
+                                0.15317000448703766
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 2
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                },
+                {
+                    "csg": {
+                        "lhs": {
+                            "lhs": {
+                                "lhs": {
+                                    "center": [
+                                        0.5117348432540894,
+                                        0.7210355401039124
+                                    ],
+                                    "size": [
+                                        0.15317000448703766,
+                                        0.15317000448703766
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "rhs": {
+                                    "center": [
+                                        0.5102640390396118,
+                                        0.9740573167800903
+                                    ],
+                                    "size": [
+                                        0.15317000448703766,
+                                        0.15317000448703766
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "node-type": 2
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.3763962984085083,
+                                    0.7298653721809387
+                                ],
+                                "size": [
+                                    0.15317000448703766,
+                                    0.15317000448703766
+                                ],
+                                "angle": -0.0,
+                                "node-type": 0
+                            },
+                            "node-type": 2
+                        },
+                        "rhs": {
+                            "center": [
+                                0.6397180557250977,
+                                0.7357428669929504
+                            ],
+                            "size": [
+                                0.15317000448703766,
+                                0.15317000448703766
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 2
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                }
+            ],
+            "isExplicit": true,
+            "borderEdge": false,
+            "borderOnly": false,
+            "color": [
+                0.9764705896377563,
+                0.2549019753932953,
+                0.2666666805744171
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "lhs": {
+                                "lhs": {
+                                    "center": [
+                                        0.487812876701355,
+                                        0.5497698783874512
+                                    ],
+                                    "size": [
+                                        0.24621999263763428,
+                                        0.24621999263763428
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "rhs": {
+                                    "center": [
+                                        0.4966162443161011,
+                                        0.9212956428527832
+                                    ],
+                                    "size": [
+                                        0.24621999263763428,
+                                        0.24621999263763428
+                                    ],
+                                    "angle": -0.0,
+                                    "node-type": 0
+                                },
+                                "node-type": 2
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.2828795313835144,
+                                    0.5418944358825684
+                                ],
+                                "size": [
+                                    0.24621999263763428,
+                                    0.24621999263763428
+                                ],
+                                "angle": -0.0,
+                                "node-type": 0
+                            },
+                            "node-type": 2
+                        },
+                        "rhs": {
+                            "center": [
+                                0.6916561126708984,
+                                0.5287210941314697
+                            ],
+                            "size": [
+                                0.24621999263763428,
+                                0.24621999263763428
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 2
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                }
+            ],
+            "isExplicit": true,
+            "borderEdge": false,
+            "borderOnly": false,
+            "color": [
+                0.9725490212440491,
+                0.5882353186607361,
+                0.11764705926179886
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.22508367896080017,
+                                0.7810215950012207
+                            ],
+                            "size": [
+                                0.16284959018230438,
+                                0.041612397879362106
+                            ],
+                            "angle": -0.0,
+                            "node-type": 3
+                        },
+                        "rhs": {
+                            "center": [
+                                0.224495530128479,
+                                0.7905082702636719
+                            ],
+                            "size": [
+                                0.11999999731779099,
+                                0.11999999731779099
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                },
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.5035598278045654,
+                                0.23604679107666016
+                            ],
+                            "size": [
+                                0.16284959018230438,
+                                0.041612397879362106
+                            ],
+                            "angle": -0.0,
+                            "node-type": 3
+                        },
+                        "rhs": {
+                            "center": [
+                                0.5034813284873962,
+                                0.2395191192626953
+                            ],
+                            "size": [
+                                0.11999999731779099,
+                                0.11999999731779099
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                },
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.7877881526947021,
+                                0.8171367645263672
+                            ],
+                            "size": [
+                                0.16284959018230438,
+                                0.041612397879362106
+                            ],
+                            "angle": -0.0,
+                            "node-type": 3
+                        },
+                        "rhs": {
+                            "center": [
+                                0.7869328856468201,
+                                0.8193435668945313
+                            ],
+                            "size": [
+                                0.11999999731779099,
+                                0.11999999731779099
+                            ],
+                            "angle": -0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    },
+                    "color": [
+                        1.0,
+                        1.0,
+                        1.0,
+                        1.0
+                    ],
+                    "roughness": 0.10000000149011612,
+                    "metallic": 0.0
+                }
+            ],
+            "isExplicit": true,
+            "borderEdge": false,
+            "borderOnly": false,
+            "color": [
+                0.9764705896377563,
+                0.7803921699523926,
+                0.30980393290519714
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": true,
+            "borderEdge": true,
+            "borderOnly": true,
+            "color": [
+                0.5647059082984924,
+                0.7450980544090271,
+                0.4274509847164154
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": true,
+            "borderEdge": true,
+            "borderOnly": true,
+            "color": [
+                0.26274511218070984,
+                0.6666666865348816,
+                0.545098066329956
+            ]
+        }
+    ],
+    "defaultTileTransformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+    }
+}

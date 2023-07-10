@@ -1,0 +1,181 @@
+{
+    "tileTypes": [
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 2,
+                    "tileEdgeTo": 2
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 3
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            }
+        }
+    ],
+    "edgeTypes": [
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.4989504814147949,
+                                0.5061092376708984
+                            ],
+                            "radius": 0.13195084035396576,
+                            "node-type": 0
+                        },
+                        "rhs": {
+                            "lhs": {
+                                "center": [
+                                    0.4368606209754944,
+                                    0.5329599380493164
+                                ],
+                                "radius": 0.13195084035396576,
+                                "node-type": 0
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.44102025032043457,
+                                    0.5521097183227539
+                                ],
+                                "radius": 0.10000000149011612,
+                                "node-type": 0
+                            },
+                            "node-type": 1
+                        },
+                        "node-type": 1
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.1172947883605957,
+                            0.7238187789916992
+                        ],
+                        "radius": 0.13195084035396576,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "center": [
+                            0.4298546314239502,
+                            0.22512197494506836
+                        ],
+                        "radius": 0.13195084035396576,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "lhs": {
+                                "center": [
+                                    0.3809041380882263,
+                                    0.39301156997680664
+                                ],
+                                "radius": 0.13195084035396576,
+                                "node-type": 0
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.4803040027618408,
+                                    0.49710607528686523
+                                ],
+                                "radius": 0.10000000149011612,
+                                "node-type": 0
+                            },
+                            "node-type": 1
+                        },
+                        "rhs": {
+                            "center": [
+                                0.37027984857559204,
+                                0.2860894203186035
+                            ],
+                            "radius": 0.13195084035396576,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "defaultTileTransformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+    }
+}

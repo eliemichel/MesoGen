@@ -1,0 +1,223 @@
+{
+    "tileTypes": [
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                },
+                {
+                    "shapeFrom": 1,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 2,
+                    "addHalfTurn": false,
+                    "assignmentOffset": 0,
+                    "flipEnd": false
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": true
+                    },
+                    "tileEdgeIndex": 1
+                }
+            ],
+            "transformPermission": {
+                "rotation": false,
+                "flipX": true,
+                "flipY": true
+            }
+        }
+    ],
+    "edgeTypes": [
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.7154872417449951,
+                            0.5311594009399414
+                        ],
+                        "size": [
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "angle": 0.0,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.4022473096847534,
+                                0.28089308738708496
+                            ],
+                            "size": [
+                                0.05176323279738426,
+                                0.05176323279738426
+                            ],
+                            "angle": 0.0,
+                            "node-type": 0
+                        },
+                        "rhs": {
+                            "lhs": {
+                                "center": [
+                                    0.367853581905365,
+                                    0.28721117973327637
+                                ],
+                                "size": [
+                                    0.05176323279738426,
+                                    0.05176323279738426
+                                ],
+                                "angle": 0.0,
+                                "node-type": 0
+                            },
+                            "rhs": {
+                                "center": [
+                                    0.30903005599975586,
+                                    0.2979707717895508
+                                ],
+                                "size": [
+                                    0.10000000149011612,
+                                    0.10000000149011612
+                                ],
+                                "angle": 0.0,
+                                "node-type": 0
+                            },
+                            "node-type": 1
+                        },
+                        "node-type": 1
+                    }
+                }
+            ],
+            "isExplicit": true,
+            "color": [
+                0.9764705896377563,
+                0.2549019753932953,
+                0.2666666805744171
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.0880776047706604,
+                            0.8823245763778687
+                        ],
+                        "size": [
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "angle": 0.0,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "center": [
+                            0.07166862487792969,
+                            0.13860714435577393
+                        ],
+                        "size": [
+                            0.10000000149011612,
+                            0.10000000149011612
+                        ],
+                        "angle": 0.0,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": true,
+            "color": [
+                0.5647059082984924,
+                0.7450980544090271,
+                0.4274509847164154
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.12172263860702515,
+                            0.8607769012451172
+                        ],
+                        "size": [
+                            0.06372801959514618,
+                            0.06372801959514618
+                        ],
+                        "angle": 0.0,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.3433932065963745,
+                                0.34893798828125
+                            ],
+                            "size": [
+                                0.10000000149011612,
+                                0.10000000149011612
+                            ],
+                            "angle": 0.0,
+                            "node-type": 0
+                        },
+                        "rhs": {
+                            "center": [
+                                0.4865126609802246,
+                                0.3889026641845703
+                            ],
+                            "size": [
+                                0.24622902274131775,
+                                0.24622902274131775
+                            ],
+                            "angle": 0.0,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    }
+                }
+            ],
+            "isExplicit": true,
+            "color": [
+                0.9764705896377563,
+                0.7803921699523926,
+                0.30980393290519714
+            ]
+        }
+    ],
+    "defaultTileTransformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+    }
+}

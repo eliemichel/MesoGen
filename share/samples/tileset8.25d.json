@@ -1,0 +1,482 @@
+{
+    "tileTypes": [
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 0
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 1
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 2
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 3
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            }
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 4
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 5
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 6
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 7
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            }
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3
+                },
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 1,
+                    "tileEdgeFrom": 0,
+                    "tileEdgeTo": 3
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 8
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 9
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 10
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 11
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            }
+        },
+        {
+            "innerPaths": [
+                {
+                    "shapeFrom": 0,
+                    "shapeTo": 0,
+                    "tileEdgeFrom": 1,
+                    "tileEdgeTo": 3
+                }
+            ],
+            "edges": [
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 12
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 13
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 14
+                },
+                {
+                    "transform": {
+                        "flipped": false
+                    },
+                    "tileEdgeIndex": 15
+                }
+            ],
+            "transformPermission": {
+                "rotation": true,
+                "flipX": true,
+                "flipY": true
+            }
+        }
+    ],
+    "edgeTypes": [
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "lhs": {
+                            "center": [
+                                0.14559099078178406,
+                                0.5570058822631836
+                            ],
+                            "radius": 0.09999999403953552,
+                            "node-type": 0
+                        },
+                        "rhs": {
+                            "center": [
+                                0.2471768856048584,
+                                0.5297017097473145
+                            ],
+                            "radius": 0.19318728148937225,
+                            "node-type": 0
+                        },
+                        "node-type": 1
+                    }
+                },
+                {
+                    "csg": {
+                        "center": [
+                            0.11831977963447571,
+                            0.11290931701660156
+                        ],
+                        "radius": 0.09999999403953552,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.6874856948852539,
+                            0.37761592864990234
+                        ],
+                        "radius": 0.09999999403953552,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.7705206871032715,
+                            0.514866828918457
+                        ],
+                        "radius": 0.09999999403953552,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.5318602323532104,
+                            0.5460882186889648
+                        ],
+                        "radius": 0.13660408556461334,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.4978916049003601,
+                            0.4864969253540039
+                        ],
+                        "radius": 0.13660408556461334,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.5019896626472473,
+                            0.29911136627197266
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.7872529029846191,
+                            0.3851041793823242
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.8589190244674683,
+                            0.3526430130004883
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "center": [
+                            0.12341061234474182,
+                            0.38159847259521484
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                },
+                {
+                    "csg": {
+                        "center": [
+                            0.40607500076293945,
+                            0.7381105422973633
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.5,
+                            0.5
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        },
+        {
+            "shapes": [
+                {
+                    "csg": {
+                        "center": [
+                            0.5,
+                            0.5
+                        ],
+                        "radius": 0.10000000149011612,
+                        "node-type": 0
+                    }
+                }
+            ],
+            "isExplicit": false,
+            "color": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    ],
+    "defaultTileTransformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+    }
+}

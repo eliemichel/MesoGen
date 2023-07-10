@@ -1,0 +1,15 @@
+[submodule "src/External/modernglad"]
+	path = src/External/modernglad
+	url = https://github.com/eliemichel//modernglad
+[submodule "src/External/glad"]
+	path = src/External/glad
+	url = https://github.com/Dav1dde/glad
+[submodule "src/External/glfw"]
+	path = src/External/glfw
+	url = https://github.com/glfw/glfw
+[submodule "src/External/imgui"]
+	path = src/External/imgui
+	url = https://github.com/ocornut/imgui
+[submodule "tests/External/Catch2"]
+	path = tests/External/Catch2
+	url = https://github.com/catchorg/Catch2

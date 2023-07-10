@@ -1,0 +1,213 @@
+{
+  "tileTypes": [
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 2
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 3
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 5
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": false,
+        "flipX": true,
+        "flipY": true
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 4
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 1
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 5
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 4
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": false,
+        "flipY": false
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 4
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 3
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": false,
+        "flipY": false
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 3
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 2
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": false,
+        "flipY": false
+      }
+    }
+  ],
+  "edgeTypes": [
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.9764705882352941,
+        0.2549019607843137,
+        0.26666666666666666
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": true,
+      "borderOnly": false,
+      "color": [
+        0.9725490196078431,
+        0.5882352941176471,
+        0.11764705882352941
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": true,
+      "borderOnly": true,
+      "color": [
+        0.9764705882352941,
+        0.7803921568627451,
+        0.30980392156862746
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.5647058823529412,
+        0.7450980392156863,
+        0.42745098039215684
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.2627450980392157,
+        0.6666666666666666,
+        0.5450980392156862
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.3411764705882353,
+        0.4588235294117647,
+        0.5647058823529412
+      ]
+    }
+  ],
+  "defaultTileTransformPermission": {
+    "rotation": true,
+    "flipX": true,
+    "flipY": true
+  }
+}

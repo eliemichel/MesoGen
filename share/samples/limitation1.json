@@ -1,0 +1,69 @@
+{
+    "version": 1,
+    "tilesetController": {
+        "tilesetFilename": "tileset.limitation1.json"
+    },
+    "tilesetEditor": {
+        "operation": "Add",
+        "brush": "Circle",
+        "brushScale": 0.10000000149011612,
+        "brushSize": [
+            1.0,
+            1.0
+        ],
+        "brushAngle": 0.0,
+        "brushSizeSensitivity": 0.05000000074505806,
+        "lineThickness": 0.02500000037252903
+    },
+    "macrosurfaceData": {
+        "slotTopology": "Mesh",
+        "dimensions": [
+            4,
+            3
+        ],
+        "modelFilename": "tshirt.obj",
+        "viewportPosition": [
+            1.0,
+            -2.804879903793335
+        ],
+        "viewportScale": 1.0
+    },
+    "tilingSolver": {
+        "suggestionStrategy": "Voting",
+        "maxAttempts": 20,
+        "randomSeed": 0
+    },
+    "macrosurfaceRenderer": {
+        "enabled": true
+    },
+    "mesostructureRenderer": {
+        "enabled": true,
+        "thickness": 0.49171000719070435,
+        "offset": 0.0,
+        "profileScale": 0.22099000215530396,
+        "tangentMultiplier": 1.0,
+        "deformationMode": "Interpolant",
+        "sweepDivisions": 20,
+        "profilePrecisionPow": 2.0,
+        "fixedDivisionCount": false,
+        "wireframe": false,
+        "wireframeDiagonal": false,
+        "useCheckboard": true,
+        "alwaysRecompute": false,
+        "manualUpdate": false,
+        "measureStats": false
+    },
+    "mesostructureExporter": {
+        "filename": "output.ply",
+        "exportSlotIndex": false
+    },
+    "fileRenderer": {
+        "prefix": "render/frame",
+        "resolution": [
+            1920,
+            1080
+        ],
+        "framePerTurn": 360,
+        "overwrite": false
+    }
+}

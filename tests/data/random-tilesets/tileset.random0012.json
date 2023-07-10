@@ -1,0 +1,78 @@
+{
+  "tileTypes": [
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 1
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 2
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": false,
+        "flipX": false,
+        "flipY": true
+      }
+    }
+  ],
+  "edgeTypes": [
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.9764705882352941,
+        0.2549019607843137,
+        0.26666666666666666
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": true,
+      "borderOnly": true,
+      "color": [
+        0.9725490196078431,
+        0.5882352941176471,
+        0.11764705882352941
+      ]
+    },
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": false,
+      "borderOnly": false,
+      "color": [
+        0.9764705882352941,
+        0.7803921568627451,
+        0.30980392156862746
+      ]
+    }
+  ],
+  "defaultTileTransformPermission": {
+    "rotation": true,
+    "flipX": true,
+    "flipY": true
+  }
+}

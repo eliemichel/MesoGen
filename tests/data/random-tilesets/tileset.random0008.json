@@ -1,0 +1,192 @@
+{
+  "tileTypes": [
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": false,
+        "flipY": false
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": false,
+        "flipX": false,
+        "flipY": true
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": true
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": false,
+        "flipY": true
+      }
+    },
+    {
+      "innerPaths": [],
+      "edges": [
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        },
+        {
+          "transform": {
+            "flipped": false
+          },
+          "tileEdgeIndex": 0
+        }
+      ],
+      "transformPermission": {
+        "rotation": true,
+        "flipX": true,
+        "flipY": true
+      }
+    }
+  ],
+  "edgeTypes": [
+    {
+      "shapes": [],
+      "isExplicit": true,
+      "borderEdge": true,
+      "borderOnly": false,
+      "color": [
+        0.9764705882352941,
+        0.2549019607843137,
+        0.26666666666666666
+      ]
+    }
+  ],
+  "defaultTileTransformPermission": {
+    "rotation": true,
+    "flipX": true,
+    "flipY": true
+  }
+}

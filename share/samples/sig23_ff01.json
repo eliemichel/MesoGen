@@ -1,0 +1,72 @@
+{
+    "version": 1,
+    "tilesetController": {
+        "tilesetFilename": "tileset.osier2e_color.json"
+    },
+    "tilesetEditor": {
+        "operation": "Add",
+        "brush": "Circle",
+        "brushScale": 0.10000000149011612,
+        "brushSize": [
+            1.0,
+            1.0
+        ],
+        "brushAngle": 0.0,
+        "brushSizeSensitivity": 0.05000000074505806,
+        "lineThickness": 0.02500000037252903
+    },
+    "macrosurfaceData": {
+        "slotTopology": "Mesh",
+        "dimensions": [
+            4,
+            3
+        ],
+        "modelFilename": "lamp-sub2.",
+        "viewportPosition": [
+            1.0,
+            -2.0
+        ],
+        "viewportScale": 1.0
+    },
+    "tilingSolver": {
+        "suggestionStrategy": "Voting",
+        "maxAttempts": 20,
+        "randomSeed": 0
+    },
+    "macrosurfaceRenderer": {
+        "enabled": false
+    },
+    "mesostructureRenderer": {
+        "enabled": true,
+        "thickness": 0.2817699909210205,
+        "offset": 0.0,
+        "profileScale": 0.0,
+        "tangentMultiplier": 1.0,
+        "deformationMode": "Interpolant",
+        "sweepDivisions": 20,
+        "profilePrecisionPow": 2.0,
+        "fixedDivisionCount": false,
+        "wireframe": false,
+        "wireframeDiagonal": false,
+        "useCheckboard": true,
+        "alwaysRecompute": false,
+        "manualUpdate": false,
+        "measureStats": false
+    },
+    "mesostructureExporter": {
+        "filename": "output.ply",
+        "exportSlotIndex": false
+    },
+    "fileRenderer": {
+        "prefix": "render/frame",
+        "resolution": [
+            1920,
+            1080
+        ],
+        "framePerTurn": 360,
+        "overwrite": false,
+        "cameraProjectionType": "Perspective",
+        "cameraFov": 45.0,
+        "cameraAnimation": "anim/camera02.bin"
+    }
+}
