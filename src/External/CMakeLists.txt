@@ -3,23 +3,6 @@
 # consent of the authors.
 
 ###############################################################################
-# Hide warnings for all targets defined here in External
-###############################################################################
-
-# Not the most elegant way to do so, and not portable, but this is a notoriously
-# hard thing to do with cmake...
-message("Hiding warnings for all targets defined here in External.")
-set(NEW_FLAGS "")
-separate_arguments(CMAKE_CXX_FLAGS)
-foreach(FLAG ${CMAKE_CXX_FLAGS})
-	if(NOT FLAG MATCHES "/W[0-4]")
-		list(APPEND NEW_FLAGS ${FLAG})
-	endif()
-endforeach()
-list(APPEND NEW_FLAGS "/w")
-string(REPLACE ";" " " CMAKE_CXX_FLAGS "${NEW_FLAGS}")
-
-###############################################################################
 # Submodules
 ###############################################################################
 
