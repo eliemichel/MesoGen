@@ -102,11 +102,11 @@ if (MSVC)
 endif (MSVC)
 
 target_compile_definitions(Augen PUBLIC -DNOMINMAX)
-if (DEV_MOD)
+if (DEV_MODE)
 	target_compile_definitions(Augen PRIVATE -DSHARE_DIR="${PROJECT_SOURCE_DIR}/share")
-else (DEV_MOD)
+else (DEV_MODE)
 	target_compile_definitions(Augen PRIVATE -DSHARE_DIR="./share")
-endif (DEV_MOD)
+endif (DEV_MODE)
 
 # For IDE projects
 group_source_by_folder(${SRC})

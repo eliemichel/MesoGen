@@ -5,9 +5,43 @@ MesoGen
 
 ![Screenshot](doc/screenshot.jpg)
 
-### Downloading
+Table of Contents
+-----------------
 
-You can either use the [Download](https://github.com/eliemichel/MesoGen/archive/refs/heads/main.zip) button or use git to get the source code:
+ - [What is this?](#what-is-this)
+ - [Usage](#usage)
+   + [Download](#download)
+   + [Instruction](#instructions)
+ - [Building from source](#buliding-from-source)
+   + [Download sources](#download-source)
+   + [Dependencies](#dependencies)
+   + [Building](#building)
+   + [Running](#running)
+   + [Sharing](#sharing)
+ - [License](#license)
+
+What is this?
+-------------
+
+Usage
+-----
+
+### Download
+
+Precompiled binaries are only available for Windows, see the [last release](). On other OSes, you need to build from source.
+
+**NB** If you happen to create a build for another OS, you are welcome to share it with us so that we can add it to the release downloads!
+
+### Instruction
+
+TODO
+
+Building from source
+--------------------
+
+### Download
+
+You can either use the [Download](https://github.com/eliemichel/MesoGen/archive/refs/heads/main.zip) button or use `git` to get the source code:
 
 ```
 git clone https://github.com/eliemichel/MesoGen.git
@@ -16,7 +50,7 @@ cd MesoGen
 
 ### Dependencies
 
-To build this project, you need:
+This projects includes most of its batteries, all you need besides the source code is:
 
  - [CMake](https://cmake.org/) for configuration.
  - [Python](https://www.python.org/) to generate glad headers.
@@ -46,6 +80,19 @@ The executable file is created within the `build` directory, in `src/Mesostructu
 
 **NB** Run from the `share/samples` directory in order to easily load example scenes (using default values in the UI).
 
-### Usage
+### Sharing
 
-TODO
+**By default**, the build is configured in **development mode**, which has the path to shaders be hardcoded in order to enable easy reload from source tree (by hitting F5).
+
+This is nice **except when you wen to share the build with other people**. When so, turn the dev mode off upon using CMake:
+
+```
+cmake -B build-shared -DDEV_MODE=OFF
+```
+
+Make sure to copy the `share/` directory in the release zip, next to `MesostructureGenerator.exe`. You may also copy the content of the `share/samples` directory to enable easy loading from the default values.
+
+License
+-------
+
+This repository as a whole is shared under the terms of the MIT license. For more information, see [`LICENSE`](LICENSE). It includes dependencies that are individually licensed under similar licenses, see each directory's LICENSE file.

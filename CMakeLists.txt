@@ -46,8 +46,7 @@ if (CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
     set(CMAKE_INSTALL_PREFIX "${DEFAULT_INSTALL_DIR}" CACHE PATH "default install path" FORCE)
 endif()
 
-option(DEV_MOD "Build in dev mode, use share directory from source tree rather than installation tree" ON)
-option(USE_EXPERIMENTAL "Use experimental features" ON) # no longer used
+option(DEV_MODE "Build in dev mode, use share directory from source tree rather than installation tree" ON)
 
 # Build
 add_subdirectory(src)
