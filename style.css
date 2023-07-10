@@ -1,2 +1,137 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0 0.5em;
+}
 
+main {
+	max-width: 50em;
+	margin: auto;
+}
 
+img, video {
+	max-width: 100%;
+}
+
+a {
+	color: #209cee;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+body > h1 {
+	font-weight: 800;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0.3em;
+}
+body > h1 > a {
+	color: #333;
+}
+
+h2, h3 {
+	color: #333;
+}
+figure {
+	margin: 0;
+}
+figure figcaption {
+	font-style: italic;
+	font-size: 0.9em;
+	text-align: center;
+}
+
+footer {
+	margin-top: 3em;
+	margin-bottom: 3em;
+	font-size: 0.85em;
+	color: #555;
+	text-align: center;
+}
+
+section {
+	margin-top: 2em;
+}
+
+.s-venue {
+	text-align: center;
+	font-style: italic;
+	color: #888;
+	font-size: 1.3em;
+}
+
+.s-doi {
+	text-align: center;
+}
+
+.s-date {
+	text-align: center;
+}
+
+.s-authorlist {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 4em;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.s-authorlist div.p-author a.p-name {
+	font-weight: bold;
+}
+
+.s-authorlist div.p-author a.p-org {
+	color: #222;
+}
+
+.s-authorlist div.p-author ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul.s-download-links {
+	list-style: none;
+	padding: 0;
+
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: flex-start;
+	align-content: flex-start;
+	gap: 1em;
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+ul.s-download-links li a {
+	display: inline-block;
+	background-color: #209cee; /* #4985ad */
+	border-radius: 0.3em;
+	padding: 0.2em 0.35em;
+	color: white;
+}
+ul.s-download-links li a:hover {
+	background-color: #79bfed;
+	text-decoration: none;
+}
+
+.s-content {
+	text-align: justify;
+	line-height: 1.3em;
+}
+
+.s-citation {
+	font-family: monospace;
+	white-space-collapse: preserve;
+	border: 1px solid #ccc;
+	border-radius: 0.3em;
+	padding: 1em;
+	background-color: #f2f2f2;
+}

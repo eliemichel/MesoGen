@@ -3,51 +3,100 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>MesoGen: Designing Procedural On-Surface Stranded Mesostructures</title>
+		<link rel="canonical" href="https://eliemichel.github.io/MesoGen" />
 		<link rel="stylesheet" href="normalize.css" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 	</head>
 	<body class="h-entry">
-		<h1 class="p-name"><a class="u-url" href="">MesoGen: Designing Procedural On-Surface Stranded Mesostructures</a></h1>
+		<h1 class="p-name"><a class="u-url" href="https://eliemichel.github.io/MesoGen">MesoGen: Designing Procedural On-Surface Stranded Mesostructures</a></h1>
 
-		<div>DOI: <a class="u-uid" href="https://doi.org/10.1145/3588432.3591496">https://doi.org/10.1145/3588432.3591496</span></div>
-
-		<div class="p-author h-card">
-			<a class="p-name u-url" href="https://research.adobe.com/person/elie-michel">Élie Michel</a>, <a class="p-org" href="https://www.telecom-paris.fr/">LTCI, Télécom Paris, IP Paris</a> and <a class="p-org" href="https://research.adobe.com/">Adobe</a>
+		<div class="s-venue">
+			ACM Transaction on Graphics (SIGGRAPH '<time class="dt-published" datetime="2013-06-13 12:00:00">23</time> Conference Proceedings)
 		</div>
 
-		<div class="p-author h-card">
-			<a class="p-name u-url" href="https://perso.telecom-paristech.fr/boubek">Tamy Boubekeur</a>, <a class="p-org" href="https://research.adobe.com/">Adobe</a>
+		<div class="s-authorlist">
+			<div class="p-author h-card">
+				<a class="p-name u-url" href="https://research.adobe.com/person/elie-michel">Élie Michel</a>
+				<ul>
+					<li><a class="p-org h-card" href="https://www.telecom-paris.fr/">LTCI, Télécom Paris, IP Paris</a></li>
+					<li><a class="p-org h-card" href="https://research.adobe.com/">Adobe</a></li>
+				</ul>
+			</div>
+
+			<div class="p-author h-card">
+				<a class="p-name u-url" href="https://perso.telecom-paristech.fr/boubek">Tamy Boubekeur</a>
+				<ul>
+					<li><a class="p-org h-card" href="https://research.adobe.com/">Adobe</a></li>
+				</ul>
+			</div>
 		</div>
 
-		<div>
-			Published in ACM Transaction on Graphics (SIGGRAPH '23 Conference Proceedings)
-			<time class="dt-published" datetime="2013-06-13 12:00:00">July 23, 2023</time>
-		</div>
+		<main>
+			<figure>
+				<img alt="Teaser image" src="images/teaser.jpg" />
+				<figcaption>We propose a workflow for designing rich mesostructures, with self-similarity but no repetition artifacts. Our method is based on Wang tiling to enable fast authoring and efficient real-time rendering.</figcaption>
+			</figure>
 
-		<p class="p-summary">
-Three-dimensional mesostructures enrich coarse macrosurfaces
-with complex features, which are 3D geometry with arbitrary topology
-in essence, but are expected to be self-similar with no tiling
-artifacts, just like texture-based material models. This is a challenging
-task, as no existing modeling tool provides the right constraints
-in the design phase to ensure such properties while maintaining
-real-time editing capabilities. In this paper, we propose MesoGen,
-a novel tile-centric authoring approach for the design of procedural
-mesostructures featuring non-periodic self-similarity while
-being represented as a compact and GPU-friendly model. We ensure
-by construction the continuity of the mesostructure: the user
-designs a set of atomic tiles by drawing 2D cross-sections on the
-interfaces between tiles, and selecting pairs of cross-sections to be
-connected as strands, i.e., 3D sweep surfaces. In parallel, a tiling engine
-continuously fills the shell space of the macrosurface with the
-so-defined tile set while ensuring that only matching interfaces are
-in contact. Moreover, the engine suggests to the user the addition
-of new tiles whenever the problem happens to be over-constrained.
-As a result, our method allows for the rapid creation of complex,
-seamless procedural mesostructure and is particularly adapted for
-wicker-like ones, often impossible to achieve with scattering-based
-mesostructure synthesis methods.
-		</p>
+			<ul class="s-download-links">
+				<li><a class="u-uid" href="https://doi.org/10.1145/3588432.3591496">DOI</a></li>
+				<li><a href="documents/michel23mesogen.pdf">Paper (72 MB)</a></li>
+				<li><a href="documents/michel23mesogen_lowres.pdf">Lowres Paper (2.2 MB)</a></li>
+				<li><a href="documents/michel23mesogen_supplemental.pdf">Supplemental (26 MB)</a></li>
+				<li><a href="#">Video</a></li>
+				<li><a href="https://github.com/eliemichel/MesoGen">Source Code</a></li>
+			</ul>
 
+			<section>
+				<h2>Abstract</h2>
+				<p class="p-summary s-content">
+	Three-dimensional mesostructures enrich coarse macrosurfaces
+	with complex features, which are 3D geometry with arbitrary topology
+	in essence, but are expected to be self-similar with no tiling
+	artifacts, just like texture-based material models. This is a challenging
+	task, as no existing modeling tool provides the right constraints
+	in the design phase to ensure such properties while maintaining
+	real-time editing capabilities. In this paper, we propose MesoGen,
+	a novel tile-centric authoring approach for the design of procedural
+	mesostructures featuring non-periodic self-similarity while
+	being represented as a compact and GPU-friendly model. We ensure
+	by construction the continuity of the mesostructure: the user
+	designs a set of atomic tiles by drawing 2D cross-sections on the
+	interfaces between tiles, and selecting pairs of cross-sections to be
+	connected as strands, i.e., 3D sweep surfaces. In parallel, a tiling engine
+	continuously fills the shell space of the macrosurface with the
+	so-defined tile set while ensuring that only matching interfaces are
+	in contact. Moreover, the engine suggests to the user the addition
+	of new tiles whenever the problem happens to be over-constrained.
+	As a result, our method allows for the rapid creation of complex,
+	seamless procedural mesostructure and is particularly adapted for
+	wicker-like ones, often impossible to achieve with scattering-based
+	mesostructure synthesis methods.
+				</p>
+			</section>
+
+			<section>
+				<h2>Trailer</h2>
+				<video controls poster="images/michel23mesogen-fast-forward.jpg">
+					<source src="videos/michel23mesogen-fast-forward.mp4" type="video/mp4">
+					Download: <a href="videos/michel23mesogen-fast-forward.mp4">WEBM</a>
+				</video>
+			</section>
+
+			<section>
+				<h2>Citation</h2>
+				<p class="s-citation">@article{michel32mesogen,
+	title = {MesoGen: Designing Procedural On-Surface Stranded Mesostructures},
+	author = {Michel, Élie and Boubekeur, Tamy},
+	journal = {ACM Transaction on Graphics (SIGGRAPH '23 Conference Proceedings)},
+	year = {2023},
+	publisher = {ACM},
+	doi = {10.1145/3588432.3591496},
+}</p>
+			</section>
+
+			<footer>&nbsp;</footer>
+		</main>
 	</body>
 </html>
