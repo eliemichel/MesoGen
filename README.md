@@ -11,8 +11,8 @@ Table of Contents
  - [What is this?](#what-is-this)
  - [Usage](#usage)
    + [Download](#download)
-   + [Instruction](#instructions)
- - [Building from source](#buliding-from-source)
+   + [Instructions](#instructions)
+ - [Building from source](#building-from-source)
    + [Download sources](#download-source)
    + [Dependencies](#dependencies)
    + [Building](#building)
@@ -29,6 +29,18 @@ It is important to note that it is not meant to be full featured production tool
 
 Nevertheless, it is usable as it is, and we are open to adding new features meant to make its use easier by non-technicians.
 
+The overall workflow of MesoGen is:
+
+ 1. Create a coarse mesh along which the mesostructure will be generated. This is called the **macrosurface**, and it must only contain quads. (You may use [Instant Meshes](https://github.com/wjakob/instant-meshes) for instance to get a quad mesh out of an arbitrary one).
+
+ 2. Define a **set of tiles** used as building blocks to generate the mesostructure. A tile has 4 sides, each of which is assigned an **interface**. When two sides of the same or different tiles are assigned the same interface, they are always **simultaneously edited**. Interface also define which tile is allowed to be placed next to which other ones.
+
+ 3. The **geometric content** of tiles is defined by first drawing 2D cross-sections on interfaces, then bridging them with a sweep surface by selecting the lines that connect them.
+
+ 4. Whenever the tile set feels ready, one can **generate** the **mesostructure** by calling an automatic tiling solver. This solver may or may not find a solution. If it does not, it can suggest a new tile to add to the tile set.
+
+ 5. You can go further by playing in real time with the **global scale** of cross-sections, the **thickness** of the **shell** in which the mesostructure is generated, etc. You can also flag some interfaces as being forbidden or on the contrary only allowed upon **open edges of the base macrosurface mesh**.
+
 Usage
 -----
 
@@ -38,14 +50,44 @@ Precompiled binaries are only available for Windows, see the [last release](http
 
 **NB** If you happen to create a build for another OS, you are welcome to share it with us so that we can add it to the release downloads!
 
-### Instruction
+### Instructions
 
-TODO
+Start by running the `MesostructureGenerator.exe` program. It should open a window similar to the screenshot above, except empty.
+
+#### UI
+
+The first lines of the right-hand side bar are sections: `Simple`, `Model`, etc. Click on them to navigate the different parts of the configuration.
+
+**NB** *If the UI is too small, jump to the `Help` section and increase the first value in there.*
+
+The `Simple` section provides quick access to inputs that are also present in other sections, ordered in a typical workflow sequence. Besides this, each element is only present in one section.
+
+The `Scene` input is a json file that contains a value for all other inputs of the UI. It is used to save the state of the app.
+
+The `Model` input is a json file that describes the set of tiles used as building blocks to generate the mesostructure. Its content is detailed in the `Model` section.
+
+The `Macrosurface` is a standard OBJ file. This prototype uses a non-standard convention for the axes though, so when exporting from Blender make sure to set the axis system as Z up and -Y forward. More option can be set up in the `Macrosurface` section.
+
+The `Generator` button calls the automatic tiling solver. More option can be set up in the `Generator` section.
+
+The `Macrosurface Renderer` and `Mesostructure Renderer` options tune how the macrosurface and mesostructure are rendered. Again, the similarly named section provide more options.
+
+The `Interface Editor` enables you to tune the tool that draws 2D cross-sections on interfaces.
+
+#### Camera Controls
+
+ - **Left-Mouse Button** orbits around the tiles.
+ - **Right-Mouse Button** and **Mouse Wheel** both control the zoom.
+ - **Middle-Mouse Button** and **Alt + Left-Mouse Button** pan in the view.
+ - **Shift + Left-Mouse Button** orbits around the macrosurface/mesosurface.
+ - **C** displays the camera matrices in the terminal.
+ - **P** toggles the right-hand panel.
+ - **F5** reloads shaders from disk.
 
 Building from source
 --------------------
 
-### Download
+### Download source
 
 You can either use the [Download](https://github.com/eliemichel/MesoGen/archive/refs/heads/main.zip) button or use `git` to get the source code:
 

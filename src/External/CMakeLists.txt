@@ -62,7 +62,7 @@ add_library(imgui STATIC
 )
 target_include_directories(imgui PUBLIC imgui imgui/backends)
 add_definitions(-DIMGUI_IMPL_OPENGL_LOADER_GLAD)
-target_link_libraries(imgui LINK_PRIVATE glad glfw)
+target_link_libraries(imgui PUBLIC glad glfw)
 set_property(TARGET imgui PROPERTY FOLDER "External")
 
 ###############################################################################
