@@ -28,9 +28,9 @@
 cmake_minimum_required(VERSION 3.7)
 project(
 	MesostructureGenerator
-	VERSION 0.5
+	VERSION 1.0.0
 	DESCRIPTION "A tileset creation tool"
-    LANGUAGES CXX
+    LANGUAGES C CXX
 )
 
 include(cmake/utils.cmake)

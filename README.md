@@ -23,12 +23,18 @@ Table of Contents
 What is this?
 -------------
 
+This is a research prototype, meant to demonstrate the ideas presented in the paper [*MesoGen*](https://eliemichel.github.io/MesoGen) and provide a reference implementation to compare others with.
+
+It is important to note that it is not meant to be full featured production tool, so the user experience could be better. It is rather a tool used internally while developing the paper to iterate on ideas and compare various options.
+
+Nevertheless, it is usable as it is, and we are open to adding new features meant to make its use easier by non-technicians.
+
 Usage
 -----
 
 ### Download
 
-Precompiled binaries are only available for Windows, see the [last release](). On other OSes, you need to build from source.
+Precompiled binaries are only available for Windows, see the [last release](https://github.com/eliemichel/MesoGen/releases/latest). On any other OS, you need to build from source.
 
 **NB** If you happen to create a build for another OS, you are welcome to share it with us so that we can add it to the release downloads!
 
