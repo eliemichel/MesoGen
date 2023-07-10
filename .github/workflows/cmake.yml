@@ -13,12 +13,14 @@ jobs:
   build:
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest, macos-latest]
-        include:
-        - os: ubuntu-latest
-          install-deps: |
-            sudo apt-get update -y
-            sudo apt-get install -y xorg-dev
+        # TODO: Fix minor stuff on other OSes
+        #os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [windows-latest]
+        #include:
+        #- os: ubuntu-latest
+        #  install-deps: |
+        #    sudo apt-get update -y
+        #    sudo apt-get install -y xorg-dev
         
     runs-on: ${{ matrix.os }}
 
